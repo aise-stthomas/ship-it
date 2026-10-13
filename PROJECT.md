@@ -18,11 +18,11 @@ from P1, and the datasets in this repository. The project is to put them togethe
    model, latency, the action, the amount, whether the output parsed, any error. No
    ticket text. A script in the repository pulls a day's rows and prints them.
 4. **The harness run against the live URL** on `data/datasets/single.json`,
-   `small.json` and `large.json`, three runs of the large set, scored per slice. The
-   results are read back from the table, not from your laptop.
-5. **A write-up**, two pages, outlining: the per-slice rates on the large set with their
-   spread; what the table showed that the harness alone did not (latency, cold starts,
-   errors, anything unexpected); and the two changes you would make next.
+   `small.json` and `large.json`, scored per slice. The results are read back from the
+   table, not from your laptop.
+5. **A write-up**, two pages, outlining: the rate of right actions per slice on the large
+   set; what the table and the log showed that the harness alone did not (latency, cold
+   starts, errors, anything unexpected); and the two changes you would make next.
 
 ## How it is graded
 
@@ -36,9 +36,9 @@ from P1, and the datasets in this repository. The project is to put them togethe
 
 ## Budget
 
-About 150 live calls: the single set once, the small set three times, the large set
-three times. The function, the API and the table cost nothing while idle. One key per
-student, in `.env`, never in a commit.
+About 100 live calls: the three datasets once each, with room to repeat. The function,
+the API and the table cost nothing while idle. One key per student, in `.env`, never in
+a commit.
 
 ## Permitted and prohibited
 

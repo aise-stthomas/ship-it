@@ -7,7 +7,7 @@ the account named in `accounts.json`. Run each through your live service.
 |---|---|---|
 | `single.json` | 1 | the plumbing: one call, one row in the table |
 | `small.json` | 10 | the harness: the ten tickets from the labs, with slices |
-| `large.json` | 31 | the numbers: per slice, with spread over three runs |
+| `large.json` | 31 | the numbers: the rate per slice |
 
 Do not edit them. They are the common reference every team's service is measured against.
 
